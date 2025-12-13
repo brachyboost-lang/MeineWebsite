@@ -5,8 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Projekte</title>
         <style>
+            :root {
+                --text-primary: #e5e7eb;
+                --text-secondary: #9ca3af;
+            }
             nav {
-            background-color: beige;
+            background-color: #111827;
             list-style-type: none;
             padding: 0;
             }
@@ -17,27 +21,69 @@
                 margin: auto;
                 padding: auto;
             }
+            .headerdiv {
+                background-color: #15233b;
+                padding: 30px;
+                margin: auto
+            }
+            .navdiv {
+                padding: 10px;
+                margin-top: 10px;
+                position: sticky;
+                color: var(--text-primary)
+            }
+            .centerdiv {
+                text-align: center;
+                margin: auto;
+                padding: 10px;
+            }
+            .divstyle1 {
+                background-color: #111827;
+                margin: auto;
+                padding: 10px;
+                color: var(--text-primary)
+            }
+            .titlediv {
+                background-color: #0f172a;
+                margin: auto;
+                padding: 10px;
+                color: var(--text-secondary)
+            }
+            .divstyle2 {
+                background-color: rgb(63, 109, 161);
+                margin: auto;
+                padding: 10px;
+                color: var(--text-secondary)
+            }
             </style>
 </head>
 <body style="background-color: black;">
     <div class ="maindiv">
-    <header>
-
+        <header>
+        <div class="headerdiv">
         <nav>
-            <a href="index.html"><button>Startseite</button></a></li>
-            <a href="projekte.html">Projekte</a></li>
-            <a href="kontakt.html">Kontakt</a></li>
-            <a href="hobbys.html">Hobbys</a></li>
+            <div class ="navdiv">
+            <a href="index.html"><button>Startseite</button></a>
+            <a href="projekte.html"><button>Projekte</button></a>
+            <a href="kontakt.html"><button>Kontakt</button></a>
+            <a href="hobbys.html"><button>Hobbys</button></a>
+            </div>  
         </nav>
+     </div>
     </header>
-    <h1>Projekte</h1>
-    <h2>Mein Erstes Projekt</h2>
-    <h4>Streiter Motorsport Software</h4>
-    <p><b>Entwicklung von Software für Motorsport-Teams und deren Fahrern.
-        <div>
-        <iframe src="" frameborder="0"></iframe>
+    <div class = "centerdiv titlediv">
+
+        <h1>Projekte</h1>
+    </div>
+    <div class = "centerdiv divstyle1">
+        <h2>Mein Erstes Projekt</h2>
+        <h4>Streiter Motorsport Software</h4>
+        <p><b>Entwicklung von Software für Motorsport-Teams und deren Fahrern.
+        </div>
+            <div class="centerdiv divstyle2">
+        <iframe src="files\Doku Alexander Lang Streiter Motorsport Software.htm" width="90%" height="600px" frameborder="1"></iframe>
         <h5>Dokumentation</h5>
-        <button onclick="">in eigenem Tab öffnen</button>
+        <a href="files\Doku Alexander Lang Streiter Motorsport Software.htm" target="_blank"><button onclick="window.open('files/Doku Alexander Lang Streiter Motorsport Software.htm', '_blank')">in eigenem Tab öffnen</button></a>
         </div>
     </b></p>
     <p></p>
