@@ -73,3 +73,16 @@ nav a {
     "box4 box3 box3"
     "box5 box3 box3";
 }
+.adjustform {
+    margin-left: 25%;
+    text-align: left;
+    display: inline-block;
+}
+.formbox {
+    display: grid;
+    margin-inline: 15%;
+    grid-template-areas:
+    "box1 box2";
+    grid-template-columns: 200px auto;
+    gap: 1em;
+}
