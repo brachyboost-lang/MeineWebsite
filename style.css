@@ -64,7 +64,7 @@ nav a {
     color: var(--text-secondary);
 }
 .list-indent {
-    margin-left: 2.5em;
+    margin-inline: 2.5em;
 }
 .grid-container-index {
     display: grid;
