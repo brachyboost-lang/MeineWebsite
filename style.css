@@ -101,3 +101,15 @@ nav a {
    background-image: url("files/images/drift\ sim.png");
     background-size: cover;
 }
+.bg-indexprojects {
+    background-image: url("files/images/code\ beispiel.png");
+    background-size: cover;
+    background-color: #0f172a;
+    background-blend-mode: darken;
+}
+.bg-indexhobbies {
+    background-image: url("files/images/drift.png");
+    background-size: cover;
+    background-color: #0f172a;
+    background-blend-mode: darken;
+}
