@@ -8,6 +8,7 @@ body {
 }
 nav {
     background-color: #111827;
+    max-width: fit-content;
     list-style-type: none;
     padding: 0;
 }
